@@ -19,7 +19,7 @@ module.exports = function last(arr, n) {
 
   n = isNumber(n) ? +n : 1;
   if (n === 1) {
-    return arr[len - 1];
+    return [arr[len - 1]];
   }
   
   if (n >= len){
